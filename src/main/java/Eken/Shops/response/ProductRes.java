@@ -1,0 +1,92 @@
+package Eken.Shops.response;
+
+import Eken.Shops.model.Products;
+
+public class ProductRes {
+    private Long id;
+    private double currentPrice;
+    private double oldPrice;
+    private boolean isExist;
+    private boolean isShow;
+    private String name;
+    private  String brand;
+    private  String feature1;
+    private  String feature2;
+    private  String feature3;
+    private  String feature4;
+    private  String feature5;
+    private  String feature6;
+    private  String feature7;
+    private  String feature8;
+    private  String feature9;
+    private  String feature10;
+    private  String feature11;
+    private  String feature12;
+    private  String feature13;
+    private  String feature14;
+    private  String feature15;
+    private  String feature16;
+    private  String feature17;
+    private  String feature18;
+    private  String feature19;
+    private  String feature20;
+    private String img1;
+    private String img2;
+    private String img3;
+    private String img4;
+    private String img5;
+    private String img6;
+    private String img7;
+    private String img8;
+    private String img9;
+    private String img10;
+    private double star;
+    private int numComments;
+    private String companyName;
+    private Long compId;
+
+    public ProductRes(Products entity){
+        this.id= entity.getId();
+        this.isExist= entity.isExist();
+        this.isShow= entity.isShow();
+        this.name=entity.getName();
+        this.currentPrice=entity.getCurrentPrice();
+        this.oldPrice=entity.getOldPrice();
+        this.brand= entity.getBrand();
+        this.star=entity.getStar();
+        this.numComments= entity.getNumComments();
+        this.companyName= entity.getCompanyName();
+        this.compId= entity.getCompId();
+        this.feature1=entity.getFeature1();
+        this.feature2= entity.getFeature2();
+        this.feature3= entity.getFeature3();
+        this.feature4= entity.getFeature4();
+        this.feature5= entity.getFeature5();
+        this.feature6= entity.getFeature6();
+        this.feature7= entity.getFeature7();
+        this.feature8= entity.getFeature8();
+        this.feature9= entity.getFeature9();
+        this.feature10= entity.getFeature10();
+        this.feature11= entity.getFeature11();
+        this.feature12= entity.getFeature12();
+        this.feature13= entity.getFeature13();
+        this.feature14= entity.getFeature14();
+        this.feature15= entity.getFeature15();
+        this.feature16= entity.getFeature16();
+        this.feature17= entity.getFeature17();
+        this.feature18= entity.getFeature18();
+        this.feature19= entity.getFeature19();
+        this.feature20= entity.getFeature20();
+        this.img1=entity.getImg1();
+        this.img2= entity.getImg2();
+        this.img3= entity.getImg3();
+        this.img4= entity.getImg4();
+        this.img5= entity.getImg5();
+        this.img6= entity.getImg6();
+        this.img7= entity.getImg7();
+        this.img8= entity.getImg8();
+        this.img9= entity.getImg9();
+        this.img10= entity.getImg10();
+
+    }
+}
